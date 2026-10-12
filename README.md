@@ -4,6 +4,8 @@ My Linux dotfiles: a [Hyprland](https://hyprland.org/) desktop running the [Cael
 
 > **Note:** This setup is [Caelestia](https://github.com/caelestia-dots/shell) with only minor changes of my own, mainly to keybinds, `exec` autostarts and a few other small tweaks. The look and feel, and most of the work, belong to the Caelestia project. If you want this desktop, start with Caelestia itself and use these files as a reference for my adjustments.
 
+I also run my own [Quickshell](https://quickshell.org/) widgets alongside it, built by me and kept in a separate repo: **[alon3wolfus/qt-widgets](https://github.com/alon3wolfus/qt-widgets)**. They are not part of this repo, so install them from there.
+
 ## Screenshots
 
 ![Desktop](screenshots/desktop.png)
@@ -68,6 +70,7 @@ Install the programs for the configs you use (Hyprland, the Caelestia shell, kit
 ## Credits
 
 - [Caelestia](https://github.com/caelestia-dots/shell) for the shell and base configuration. My changes are small tweaks on top of it.
+- [alon3wolfus/qt-widgets](https://github.com/alon3wolfus/qt-widgets): my own Quickshell widgets, used alongside Caelestia.
 - The `cava/shaders/orion_*` files are by their original author and keep their license headers.
 
 ## Notes
