@@ -2,7 +2,16 @@
 
 My Linux dotfiles: a [Hyprland](https://hyprland.org/) desktop running the [Caelestia](https://github.com/caelestia-dots/shell) shell, plus the terminal tools and app themes I use every day.
 
-<!-- Add a screenshot here: ![screenshot](screenshot.png) -->
+> **Note:** This setup is [Caelestia](https://github.com/caelestia-dots/shell) with only minor changes of my own, mainly to keybinds, `exec` autostarts and a few other small tweaks. The look and feel, and most of the work, belong to the Caelestia project. If you want this desktop, start with Caelestia itself and use these files as a reference for my adjustments.
+
+## Screenshots
+
+![Desktop](screenshots/desktop.png)
+
+| | |
+| --- | --- |
+| ![Terminal](screenshots/terminal.png) | ![Launcher](screenshots/launcher.png) |
+| ![Music and visualizer](screenshots/cava.png) | ![Editor](screenshots/editor.png) |
 
 ## What's inside
 
@@ -31,7 +40,7 @@ Some apps store login tokens and session data in their config folders, so they a
 
 ## Install
 
-Clone the repo, then symlink the folders you want into `~/.config`:
+Install Caelestia first by following its own instructions, then apply these files on top. Clone the repo, then symlink the folders you want into `~/.config`:
 
 ```bash
 git clone https://github.com/alon3wolfus/mydots.git ~/mydots
@@ -58,7 +67,7 @@ Install the programs for the configs you use (Hyprland, the Caelestia shell, kit
 
 ## Credits
 
-- [Caelestia](https://github.com/caelestia-dots/shell) for the shell.
+- [Caelestia](https://github.com/caelestia-dots/shell) for the shell and base configuration. My changes are small tweaks on top of it.
 - The `cava/shaders/orion_*` files are by their original author and keep their license headers.
 
 ## Notes
