@@ -1,0 +1,14 @@
+# ~/.config/fetch/config
+
+# fields
+kernel
+uptime
+shell
+memory
+packages
+host
+os
+
+# appearance
+label_color=white
+separator=─

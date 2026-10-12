@@ -1,0 +1,38 @@
+# Electron apps (browser profiles with login tokens and cookies)
+equibop/
+Equibop/
+Equicord/
+Todoist/
+onlyoffice/
+
+# BetterDiscord: keep themes only
+BetterDiscord/*
+!BetterDiscord/themes/
+
+# VSCodium: keep only settings, keybindings and snippets
+VSCodium/*
+!VSCodium/User/
+VSCodium/User/*
+!VSCodium/User/settings.json
+!VSCodium/User/keybindings.json
+!VSCodium/User/snippets/
+
+# fish universal variables can hold secrets
+fish/fish_variables
+
+# generic catch-alls
+.env
+*.env
+*token*
+*secret*
+*credentials*
+*.vscdb
+*.sqlite*
+Cookies*
+Cache/
+Code Cache/
+GPUCache/
+Local Storage/
+leveldb/
+Session Storage/
+*.log

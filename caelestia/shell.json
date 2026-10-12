@@ -1,0 +1,30 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": false
+        }
+    },
+    "bar": {
+        "persistent": true
+    },
+    "general": {
+        "apps": [
+            "pavucontrol"
+        ]
+    },
+    "lock": {
+        "enableHowdy": true,
+        "enabled": true,
+        "maxHowdyTries": 3,
+        "triggerHowdyOnWake": true
+    },
+    "services": {
+        "audioIncrement": 0.05,
+        "clockFormat": "TwelveHour",
+        "maxVolume": 1.5,
+        "useTwelveHourClock": true
+    },
+    "utilities": {
+        "enabled": true
+    }
+}
